@@ -17,7 +17,7 @@ Currently, config is split between `Config` and `SystemConfig`, consolidation of
 
 ### Using Wire
 
-Path `internal/service/di` contains providers injected using `inject.go`.
+Path `internal/service/di` contain providers injected using `inject.go`.
 Wire will automatically match demand of the arguments in the constructors injected
 with the provided constructors of objects. The initiation order will be determined automatically.
 After generation `wire_gen.go` file will be generated containing
